@@ -138,7 +138,7 @@ namespace Ecommerce_Website.Controllers
             TempData.Remove("total");
             TempData.Remove("cart");
 
-            TempData["msg"] = "Ordered Successfully";
+            TempData["msg"] = "Order Placed Successfully";
             TempData.Keep();
 
 
